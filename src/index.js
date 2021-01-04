@@ -19,12 +19,12 @@ class App extends React.Component {
                 <div style={{backgroundColor:'#1B1C1D'}}>
                     <NavBar />
                     <Switch>
-                        <Route path="/" exact component={ Home } />
-                        <Route path="/chatboy" component={ Chatboy }/>
-                        <Route path="/flask" component={ Flask }/>
-                        <Route path="/resume" component={ Resume } />
-                        <Route path="/ubs" component={ UBS } />
-                        <Route path="/slb" component={ SLB } />
+                        <Route path="/hazimsulaiman/" exact component={ Home } />
+                        <Route path="/hazimsulaiman/chatboy" component={ Chatboy }/>
+                        <Route path="/hazimsulaiman/flask" component={ Flask }/>
+                        <Route path="/hazimsulaiman/resume" component={ Resume } />
+                        <Route path="/hazimsulaiman/ubs" component={ UBS } />
+                        <Route path="/hazimsulaiman/slb" component={ SLB } />
                     </Switch>
                 </div>
             </Router>

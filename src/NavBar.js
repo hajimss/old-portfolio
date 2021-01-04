@@ -1,6 +1,5 @@
 import React from 'react';
 import { Menu, Image, Dropdown} from "semantic-ui-react";
-//import Flask from './FlaskFam';
 
 const image1 = '/images/hazim_profile_pic.jpg';
 
@@ -17,21 +16,21 @@ const NavBar = () => {
                 <Menu.Item>
                     <Dropdown text="Projects" inverted >
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/flask" text="Flask Familiarisation"/>
-                            <Dropdown.Item href="/chatboy" text="Chatboy"/>
+                            <Dropdown.Item href="/hazimsulaiman/flask" text="Flask Familiarisation"/>
+                            <Dropdown.Item href="/hazimsulaiman/chatboy" text="Chatboy"/>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Menu.Item>
                 <Menu.Item>
                     <Dropdown text="Work">
                         <Dropdown.Menu>
-                            <Dropdown.Item text="UBS" href="/ubs"/>
-                            <Dropdown.Item text="Schlumberger" href="slb"/>
+                            <Dropdown.Item text="UBS" href="/hazimsulaiman/ubs"/>
+                            <Dropdown.Item text="Schlumberger" href="/hazimsulaiman/slb"/>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Menu.Item>
                 <Menu.Item>
-                    <a href="/resume">Resume</a>
+                    <a href="/hazimsulaiman/resume">Resume</a>
                 </Menu.Item>
             </Menu>
         </div>
