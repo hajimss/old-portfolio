@@ -15,10 +15,10 @@ const Chatboy = () => {
                     <p>The backend is formed using python's Flask as it can work fluidly with the python codes of the model creation scripts. The frontend is set up by Adam who mainly created the user interface and have the queries connect to the endpoints that i have set up from the backend.</p>
                 <Container>
                     <a href='https://github.com/hajimss/chatbot'>
-                        <Icon name='github' inverted size='large' />
+                        <Icon name='github' inverted size='huge' />
                     </a>
                     <a href='https://chatboy2020.herokuapp.com/'>
-                        <Icon name='linkify' inverted size='large' />
+                        <Icon name='linkify' inverted size='huge' />
                     </a>
                 </Container>
                 </Container>

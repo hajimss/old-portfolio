@@ -16,10 +16,10 @@ const Flask = () => {
                     </p>
                     <Container>
                         <a href='https://github.com/hajimss/flask-and-mongo'>
-                            <Icon name='github' inverted size='large' />
+                            <Icon name='github' inverted size='huge' />
                         </a>
                         <a href='https://hazimisusingflaskandmongo.herokuapp.com/home'>
-                            <Icon name='linkify' inverted size='large' />
+                            <Icon name='linkify' inverted size='huge' />
                         </a>
                     </Container>
                 </Container>

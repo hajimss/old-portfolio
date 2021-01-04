@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Container, Header, Image, Grid } from 'semantic-ui-react';
+import { Segment, Container, Header, Image, Grid, Dropdown, Icon } from 'semantic-ui-react';
 
 
 const Fintech = () => {
@@ -13,16 +13,23 @@ const Fintech = () => {
                         <p>
                             This is the first course that I have embarked on to hone my skills in the field of software development, and more specifically in the Fintech sector where technology is rapidly changing the dynamics of banking. In this space, I will share selected mini-projects that I have worked on during the course.
                         </p>
+                    
                     <Header as="h3" inverted>Redesigning the Paylah! App</Header>
                         <Grid>
                             <Grid.Column width={12}>
                                 <p>
-                                The class was grouped and was tasked to redesign the Paylah! mobile application by using design thinking techniques such as mapping out the customer journey and thinking of multiple personas that might use this application daily. The reconstructed app that we thought of improved the UI of the application by moving the features around based on the expected touchpoints of the users. Apart from that, new features were added to increase the usage and ease the usage of the customer, such as a bill splitting function. A mock app was set up through Figma to showcase the changes. A presentation was done at the end of the first professional certificate course
+                                The class was grouped and was tasked to redesign the Paylah! mobile application by using design thinking techniques such as mapping out the customer journey and thinking of multiple personas that might use this application daily. The reconstructed app that we thought of improved the UI of the application by moving the features around based on the expected touchpoints of the users. Apart from that, new features were added to increase the usage and ease the usage of the customer, such as a bill splitting function. A mock app was set up through Figma to showcase the changes. A presentation was done at the end of the first professional certificate course.
                                 </p>
+                                <Container>
+                                <a href={process.env.PUBLIC_URL + "/files/Hasyeef, Hazim, Jing Shen.pdf"} title="Download Presentation"  target="blank">
+                                    <Icon name='desktop' inverted size='huge' />
+                                </a>
+                            </Container>
                             </Grid.Column>
                             <Grid.Column width={4}>
                                 <Image src="https://images.squarespace-cdn.com/content/v1/5742b89ab09f956c84a8d3f9/1526526625623-YWIP6CCO8LSMQHUGJVA7/ke17ZwdGBToddI8pDm48kNUzCql9LHhGWP6AfqsWHVdZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7XXuulcRi7K4ZJIrVbS3L9jlnjAmMqdbjtUSk1m_C7nhqW1atvijcKFIEulKXrLFSA/dbspaylah.png" rounded size="small" />
                             </Grid.Column>
+
                         </Grid>
                     <Header as="h3" inverted>CI-CD Project</Header>
                         <Grid>
@@ -33,6 +40,11 @@ const Fintech = () => {
                                     Lastly, I have incorporated the use of docker with a dockerfile within the project file. This dockerfile, when run, will create a docker image. This means that the deployment process can be easily carried out in different machines despite not having certain required modules (eg. libraries of python such as requests).
                                     Check out my github page to view the CI/CD work and have a look at the individual files used to trigger the implemented CI/CD process (eg. yml file and dockerfile).
                                 </p>
+                                <Container>
+                                <a href='https://github.com/hajimss/CI-CD-Project' title="Go To Github Repository" target="blank">
+                                    <Icon name='github' inverted size='huge' />
+                                </a>
+                            </Container>
                             </Grid.Column>
                             <Grid.Column width={4}>
                                 <Image src="https://cdnazure.axonactive.com/wp-content/uploads/2020/05/Hinh-1-2.png" rounded size="medium" />
