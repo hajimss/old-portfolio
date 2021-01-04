@@ -24,7 +24,7 @@ const NavBar = () => {
                             </Dropdown.Item>
                             <Dropdown.Item>
                                 <Link to="/hazimsulaiman/chatboy" style={{ color:"black" }}>
-                                    Chatboy
+                                    Chatbot
                                 </Link>
                             </Dropdown.Item>
                         </Dropdown.Menu>
