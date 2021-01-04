@@ -33,13 +33,23 @@ const NavBar = () => {
                 <Menu.Item>
                     <Dropdown text="Work">
                         <Dropdown.Menu>
-                            <Dropdown.Item text="UBS" href="/hazimsulaiman/ubs"/>
-                            <Dropdown.Item text="Schlumberger" href="/hazimsulaiman/slb"/>
+                            <Dropdown.Item>
+                                <Link to="/hazimsulaiman/ubs" style={{ color:"black" }}>
+                                    UBS
+                                </Link>
+                            </Dropdown.Item>
+                            <Dropdown.Item>
+                                <Link to="/hazimsulaiman/slb" style={{ color:"black" }}>
+                                    Schlumberger
+                                </Link>
+                            </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </Menu.Item>
                 <Menu.Item>
-                    <a href="/hazimsulaiman/resume">Resume</a>
+                    <Link to="/hazimsulaiman/resume">
+                        Resume
+                    </Link>
                 </Menu.Item>
             </Menu>
         </div>
