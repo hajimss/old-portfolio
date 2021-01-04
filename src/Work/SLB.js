@@ -21,11 +21,15 @@ const SLB = () => {
                     <Header as="h3" inverted>Related resources</Header>
                     <Dropdown selection text="Select document">
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/files/ME4101A_Final_Report.pdf">
-                                Presentation Slides
+                            <Dropdown.Item>
+                                <a href="/files/ME4101A_Final_Report.pdf" target="blank">
+                                    Report
+                                </a>
                             </Dropdown.Item>
-                            <Dropdown.Item href="/files/IA_Final Oral Presentation.pptx">
-                                Report
+                            <Dropdown.Item>
+                                <a href="/files/IA_Final Oral Presentation.pptx" target="blank">
+                                    Presentation Slides
+                                </a>
                             </Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>

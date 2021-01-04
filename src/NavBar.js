@@ -2,12 +2,14 @@ import React from 'react';
 import { Menu, Image, Dropdown } from "semantic-ui-react";
 import { Link } from 'react-router-dom';
 
+const image1 = '/images/hazim_profile_pic.jpg';
+
 const NavBar = () => {
     return (
         <div style={{ borderBottom: '1px solid lightgrey' }}>
             <Menu inverted>
                 <Menu.Item>
-                    <Image src="/images/hazim_profile_pic.jpg" avatar />
+                    <Image src={image1} avatar />
                 </Menu.Item>
                 <Menu.Item>
                     <Link to="/hazimsulaiman/">Home</Link>
@@ -47,6 +49,11 @@ const NavBar = () => {
                 <Menu.Item>
                     <Link to="/hazimsulaiman/resume">
                         Resume
+                    </Link>
+                </Menu.Item>
+                <Menu.Item>
+                    <Link to="/hazimsulaiman/fintechsg">
+                        FintechSG
                     </Link>
                 </Menu.Item>
             </Menu>

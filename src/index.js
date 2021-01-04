@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import UBS from './Work/UBS.js';
 import SLB from './Work/SLB.js';
 import Chatboy from './Project/Chatboy.js';
+import Fintech from './FintechSG/FintechSG.js';
 
 
 class App extends React.Component {
@@ -25,6 +26,7 @@ class App extends React.Component {
                         <Route path="/hazimsulaiman/resume" component={ Resume } />
                         <Route path="/hazimsulaiman/ubs" component={ UBS } />
                         <Route path="/hazimsulaiman/slb" component={ SLB } />
+                        <Route path="/hazimsulaiman/fintechsg" component={ Fintech }></Route>
                     </Switch>
                 </div>
             </Router>
