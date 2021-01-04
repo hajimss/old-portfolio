@@ -11,7 +11,7 @@ const NavBar = () => {
                     <Image src={image1} avatar />
                 </Menu.Item>
                 <Menu.Item>
-                    <a href="/">Home</a>
+                    <a href="/hazimsulaiman/">Home</a>
                 </Menu.Item>
                 <Menu.Item>
                     <Dropdown text="Projects" inverted >
