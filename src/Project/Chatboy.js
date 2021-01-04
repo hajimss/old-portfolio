@@ -9,7 +9,7 @@ const Chatboy = () => {
             <Segment inverted>
                 <Container inverted>
                     <Header as="h1" inverted>Chatbot Project</Header>
-                    <Image src={tf_image} size="medium"/>
+                    <Image src="https://cdn-images-1.medium.com/max/1200/1*iDQvKoz7gGHc6YXqvqWWZQ.png" size="medium"/>
                     <br/>
                     <p>In this project, I have collaborated with my friend, Adam, to create a chatbot that gets input from frontend users and it will respond with an appropriate answer.</p>
                 </Container>
