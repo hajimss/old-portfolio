@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/hazimsulaiman/static/js/main.04fce532.chunk.js",
+    "main.js.map": "/hazimsulaiman/static/js/main.04fce532.chunk.js.map",
+    "runtime-main.js": "/hazimsulaiman/static/js/runtime-main.31dd9c75.js",
+    "runtime-main.js.map": "/hazimsulaiman/static/js/runtime-main.31dd9c75.js.map",
+    "static/css/2.0f6e0d9c.chunk.css": "/hazimsulaiman/static/css/2.0f6e0d9c.chunk.css",
+    "static/js/2.3fc68963.chunk.js": "/hazimsulaiman/static/js/2.3fc68963.chunk.js",
+    "static/js/2.3fc68963.chunk.js.map": "/hazimsulaiman/static/js/2.3fc68963.chunk.js.map",
+    "index.html": "/hazimsulaiman/index.html",
+    "static/css/2.0f6e0d9c.chunk.css.map": "/hazimsulaiman/static/css/2.0f6e0d9c.chunk.css.map",
+    "static/js/2.3fc68963.chunk.js.LICENSE.txt": "/hazimsulaiman/static/js/2.3fc68963.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/hazimsulaiman/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31dd9c75.js",
+    "static/css/2.0f6e0d9c.chunk.css",
+    "static/js/2.3fc68963.chunk.js",
+    "static/js/main.04fce532.chunk.js"
+  ]
+}
