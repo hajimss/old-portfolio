@@ -9,7 +9,7 @@ const NavBar = () => {
         <div style={{ borderBottom: '1px solid lightgrey' }}>
             <Menu inverted>
                 <Menu.Item>
-                    <Image src={process.env.PUBLIC_URL + '/images/hazim_profile_pic.jpg'} avatar />
+                    <Image src={process.env.PUBLIC_URL + image1} avatar />
                 </Menu.Item>
                 <Menu.Item>
                     <Link to="/hazimsulaiman/">Home</Link>
@@ -49,11 +49,6 @@ const NavBar = () => {
                 <Menu.Item>
                     <Link to="/hazimsulaiman/fintechsg">
                         FintechSG
-                    </Link>
-                </Menu.Item>
-                <Menu.Item>
-                    <Link to="/hazimsulaiman/resume">
-                        Resume
                     </Link>
                 </Menu.Item>
             </Menu>
