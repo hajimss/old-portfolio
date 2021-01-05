@@ -22,7 +22,7 @@ const ContactMe = () => {
                     Email
                 </Label>
             </a>
-            <a href='{process.env.PUBLIC_URL + "/files/Hazim_Resume.pdf"}' target="blank">
+            <a href={process.env.PUBLIC_URL + "/files/Hazim_Resume.pdf"} target="blank">
                 <Label as='a' image color='blue' style={{ margin:'5px' }}>
                     <Icon name='file' inverted size='large' />
                     Resume
