@@ -1,0 +1,15 @@
+.unBlur {
+    opacity: 50%;
+}
+
+.unBlur:hover {
+    opacity: 100%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    padding: 10px;
+}

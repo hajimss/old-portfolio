@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Container, Header, Image, Grid, Dropdown, Icon } from 'semantic-ui-react';
+import { Segment, Container, Header, Image, Grid, Icon } from 'semantic-ui-react';
 
 
 const Fintech = () => {
