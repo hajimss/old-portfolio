@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Home.css"],"names":[],"mappings":"AAIA,sBACI,UACJ,CAEA,YACI,oBACJ,CAEA,OACI,YACJ","file":"main.544ffcdf.chunk.css","sourcesContent":[".unBlur {\n    opacity: 50%;\n}\n\n.unBlur:hover {\n    opacity: 100%;\n}\n\n.card:hover {\n    transform: scale(1.1);\n}\n\n.title {\n    padding: 10px;\n}"]}
