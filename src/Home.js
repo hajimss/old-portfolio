@@ -4,7 +4,7 @@ import { Divider, Segment, Image , Container, Header, Rating, Grid, Card } from 
 import './Home.css';
 
 const image1 = '/images/my_photo.jpg';
-const faketube = '/images/faketube.png';
+const faketube = '/images/faketube.jpg';
 const calculator = '/images/calculator.png'
 const pics = '/images/react-pics.png'
 const chatboy = '/images/chatboy.png'
