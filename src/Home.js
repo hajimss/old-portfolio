@@ -4,6 +4,7 @@ import { Divider, Segment, Image , Container, Header, Rating, Grid, Card } from 
 import './Home.css';
 
 const image1 = '/images/my_photo.jpg';
+const image2 = '/images/faketube.png';
 
 const Home = () => {
     return (
@@ -28,7 +29,7 @@ const Home = () => {
                         <p className='title'>React Apps</p>
                         <Card className='card' inverted centered>
                             <Image 
-                                src='https://lh3.googleusercontent.com/QUCsM3-Z-dm3gRYHCfLHqUMR6NMTMvESWxvedzRuuLvIL2S_Pv7-6MKMdcBSql4D6lw0dzaoXx_jm9kgzdhnZp8pWzIgv6PSUS0mCYdZpArbtAVkKpsW9YLsAXQxWwUGM0H-wdrdNQ22F-3V3_bjBSLcKVnpwZPOklhLw1CN3H0iod_djVpGexTyOBrfN_GoNPDO3GDtadPMfkGuCXUGXyR5-4DGVUilxm2LwafN7POs8PgVQYE8gQhUQmR1-wJm3gaBK4sRKb65vTdKjeTYqTO3nlD7AhRAOBDbdcPrIQOnEK59tGVgvARxOyspKph1ksL1WdvwtQeTEQTkT7i5s0gGhtIbVFuxMdpssvI7xQSPKOmSv3FpPTsT_dBbS3t2cSYEtslz2qHQn71bq03YFA8q0UXdHGk5VMStQ5KEsqHa5C8468C2nn9xJG3_kPZEXX_q-41w0kdK8D11Lp0OfuomJ9s-kFINyQJeiL7Q9Bnxphh4XvjG3eHKMACDG0O8g9cpdQZYz9WlCfokdw_fBikk6osXq8vSiXSVs22M7Xo5f1zjYwy-YsdzgdYVvScWMVy7R9-Nszg9C2JoSc9z1qcyrBkvWHc9DRPfWmM08xe_SUwyr5GNh7z5VLqHLHZ5G_DTBfY6xpZ8_YOrPqyOFFq8ryxaTjnLXNuc0dfgPCdR6wyyrTYt4gRDwN2wbw=w776-h669-no?authuser=0'
+                                src={process.env.PUBLIC_URL + image2}
                                 as='a'
                                 className='unBlur'
                                 target='_blank'
