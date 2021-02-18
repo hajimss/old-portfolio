@@ -52,7 +52,6 @@ const Home = () => {
                             <Image 
                                 src={process.env.PUBLIC_URL + calculator}
                                 as='a'
-                                className='unBlur'
                                 target='_blank'
                                 href='https://hajimss.github.io/calculator/'
                             />
@@ -70,7 +69,6 @@ const Home = () => {
                             <Image
                                 src={process.env.PUBLIC_URL + pics}
                                 as='a'
-                                className='unBlur'
                                 target='_blank'
                                 href='https://hajimss.github.io/react-pics/'
                             />
@@ -91,7 +89,6 @@ const Home = () => {
                             <Image 
                                 src={process.env.PUBLIC_URL + chatboy}
                                 as='a'
-                                className='unBlur'
                                 target='_blank'
                                 href='https://hajimss.github.io/react-pics/'
                             />
@@ -112,7 +109,6 @@ const Home = () => {
                             <Image 
                                 src={process.env.PUBLIC_URL + flask}
                                 as='a'
-                                className='unBlur'
                                 target='_blank'
                                 href='https://hazimisusingflaskandmongo.herokuapp.com/'
                             />
