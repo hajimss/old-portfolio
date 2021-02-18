@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hazimsulaiman/static/css/main.544ffcdf.chunk.css",
-    "main.js": "/hazimsulaiman/static/js/main.d1f9a85e.chunk.js",
-    "main.js.map": "/hazimsulaiman/static/js/main.d1f9a85e.chunk.js.map",
+    "main.js": "/hazimsulaiman/static/js/main.63e9bb97.chunk.js",
+    "main.js.map": "/hazimsulaiman/static/js/main.63e9bb97.chunk.js.map",
     "runtime-main.js": "/hazimsulaiman/static/js/runtime-main.31dd9c75.js",
     "runtime-main.js.map": "/hazimsulaiman/static/js/runtime-main.31dd9c75.js.map",
     "static/css/2.0f6e0d9c.chunk.css": "/hazimsulaiman/static/css/2.0f6e0d9c.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.0f6e0d9c.chunk.css",
     "static/js/2.4a16d220.chunk.js",
     "static/css/main.544ffcdf.chunk.css",
-    "static/js/main.d1f9a85e.chunk.js"
+    "static/js/main.63e9bb97.chunk.js"
   ]
 }
