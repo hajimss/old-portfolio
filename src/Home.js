@@ -35,7 +35,6 @@ const Home = () => {
                             <Image 
                                 src={process.env.PUBLIC_URL + faketube}
                                 as='a'
-                                className='unBlur'
                                 target='_blank'
                                 href='https://hajimss.github.io/faketube/'
                             />
