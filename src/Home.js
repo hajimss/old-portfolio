@@ -4,7 +4,7 @@ import { Divider, Segment, Image , Container, Header, Rating, Grid, Card } from 
 import './Home.css';
 
 const image1 = '/images/my_photo.jpg';
-const faketube = '/images/faketube.jpg';
+const faketube = '/images/faketube.png';
 const calculator = '/images/calculator.png'
 const pics = '/images/react-pics.png'
 const chatboy = '/images/chatboy.png'
@@ -19,7 +19,7 @@ const Home = () => {
                     <Image src={process.env.PUBLIC_URL + image1} size='medium' centered rounded />
                     <Divider inverted horizontal>About Me</Divider>
                     <p>
-                    Just finished school. 4 years of taking up Mechanical Engineering skills and knowledge was enriching to say the least. But I strongly feel an urge take up a new challenge. One that will grant me bountiful opportunities. So I find myself learning an array of skills that relate to Financial Technology. From learning the javascript language, to understanding useful tools such as git, Kafka, SQL/noSQL databases, it has thus far made me rediscover my interests, and ultimately what I intend to pursue in the future.
+                    Just finished school. 4 years of taking up Mechanical Engineering skills and knowledge was enriching to say the least. But I strongly feel an urge take up a new challenge. One that will grant me bountiful opportunities. So I find myself learning an array of skills that relate to Financial Technology. From learning the Javascript language, to fiddling with frontend frameworks, like Flask and React, to understanding and implementing useful tools such as git, Kafka, SQL/noSQL databases, it has thus far made me rediscover my interests, and ultimately what I intend to pursue in the future.
                     </p>
                     <Rating icon='heart' defaultRating={3} maxRating={3} />
                 </Container>

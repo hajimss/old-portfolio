@@ -12,18 +12,18 @@ const NavBar = () => {
                     <Image src={process.env.PUBLIC_URL + image1} avatar />
                 </Menu.Item>
                 <Menu.Item>
-                    <Link to="/hazimsulaiman/">Home</Link>
+                    <Link to="/">Home</Link>
                 </Menu.Item>
                 <Menu.Item>
                     <Dropdown text="Projects" inverted >
                         <Dropdown.Menu>
                             <Dropdown.Item>
-                                <Link to="/hazimsulaiman/flask" style={{ color:"black" }}>
+                                <Link to="/flask" style={{ color:"black" }}>
                                     Flask Familiarisation
                                 </Link>
                             </Dropdown.Item>
                             <Dropdown.Item>
-                                <Link to="/hazimsulaiman/chatboy" style={{ color:"black" }}>
+                                <Link to="/chatboy" style={{ color:"black" }}>
                                     Chatbot
                                 </Link>
                             </Dropdown.Item>
@@ -34,12 +34,12 @@ const NavBar = () => {
                     <Dropdown text="Work">
                         <Dropdown.Menu>
                             <Dropdown.Item>
-                                <Link to="/hazimsulaiman/ubs" style={{ color:"black" }}>
+                                <Link to="/ubs" style={{ color:"black" }}>
                                     UBS
                                 </Link>
                             </Dropdown.Item>
                             <Dropdown.Item>
-                                <Link to="/hazimsulaiman/slb" style={{ color:"black" }}>
+                                <Link to="/slb" style={{ color:"black" }}>
                                     Schlumberger
                                 </Link>
                             </Dropdown.Item>
@@ -47,7 +47,7 @@ const NavBar = () => {
                     </Dropdown>
                 </Menu.Item>
                 <Menu.Item>
-                    <Link to="/hazimsulaiman/fintechsg">
+                    <Link to="/fintechsg">
                         FintechSG
                     </Link>
                 </Menu.Item>

@@ -9,7 +9,7 @@ const SLB = () => {
             <Segment inverted>
                 <Container textAlign="justified" inverted>
                     <Header as="h1" inverted>Internship With Schlumberger</Header>
-                    <Image src={ slb_image } size="medium" rounded />
+                    <Image src={ process.env.PUBLIC_URL + slb_image } size="medium" rounded />
                     <br/>
                         <p>
                         Schlumberger is an oil and gas services company. In short, it manufactures and provides sevices to a long list of oil and gas companies (eg. ExxonMobil, Shell). In the second half of 2018, I had the privilege of doing an internship with Schlumberger in SWTC, short for Singapore Well Testing Centre (SWTC). The building is a hub of the development and production of the multiphase flowmeter (MPFM), which is a vital equipment for oil extraction.
